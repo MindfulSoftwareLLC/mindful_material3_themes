@@ -33,7 +33,7 @@ const lightColorSchemeHotPink = ColorScheme(
   outlineVariant: Color(0xFFD6C2C4),
   scrim: Color(0xFF000000),
 );
- 
+
 const darkColorSchemeHotPink = ColorScheme(
   brightness: Brightness.dark,
   primary: Color(0xFFFFB1C1),
