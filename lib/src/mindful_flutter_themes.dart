@@ -21,5 +21,9 @@ class MindfulFlutterThemes {
     const MindfulTheme('Red', lightColorSchemeA53750, darkColorSchemeA53750),
     const MindfulTheme('Hotpink', lightColorSchemehotpink, darkColorSchemehotpink),
     const MindfulTheme('Puple', lightColorSchemePurple, darkColorSchemePurple),
+    const MindfulTheme('CoolBlue', lightColorSchemeCoolBlue, darkColorSchemeCoolBlue),
+    const MindfulTheme('CoolGreen', lightColorSchemeCoolGreen, darkColorSchemeCoolGreen),
+    const MindfulTheme('DeepBlue', lightColorSchemeDeepBlue, darkColorSchemeDeepBlue),
+    const MindfulTheme('Maroon', lightColorSchemeMaroon, darkColorSchemeMaroon),
   ];
 }
