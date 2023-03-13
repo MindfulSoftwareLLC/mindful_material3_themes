@@ -1,6 +1,12 @@
 import 'package:mindful_flutter_themes/src/color_scheme_99405E.dart';
 import 'package:mindful_flutter_themes/src/color_scheme_A53750.dart';
 import 'package:mindful_flutter_themes/src/color_scheme_forest_green.dart';
+import 'package:mindful_flutter_themes/src/color_schemes_cool_blue.dart';
+import 'package:mindful_flutter_themes/src/color_schemes_cool_green.dart';
+import 'package:mindful_flutter_themes/src/color_schemes_deep_blue.dart';
+import 'package:mindful_flutter_themes/src/color_schemes_hotpink.dart';
+import 'package:mindful_flutter_themes/src/color_schemes_maroon.dart';
+import 'package:mindful_flutter_themes/src/color_schemes_purple.dart';
 import 'package:mindful_flutter_themes/src/mindful_theme.dart';
 
 /// {@template mindful_flutter_themes}
@@ -13,17 +19,21 @@ class MindfulFlutterThemes {
   /// All predefined themes
   static List<MindfulTheme> themes = [
     const MindfulTheme(
-      'Green',
+      'Forest Green',
       lightColorSchemeForestGreen,
       darkColorSchemeForestGreen,
     ),
     const MindfulTheme('Maroon', lightColorScheme99405E, darkColorScheme99405E),
     const MindfulTheme('Red', lightColorSchemeA53750, darkColorSchemeA53750),
-    const MindfulTheme('Hotpink', lightColorSchemehotpink, darkColorSchemehotpink),
-    const MindfulTheme('Puple', lightColorSchemePurple, darkColorSchemePurple),
-    const MindfulTheme('CoolBlue', lightColorSchemeCoolBlue, darkColorSchemeCoolBlue),
-    const MindfulTheme('CoolGreen', lightColorSchemeCoolGreen, darkColorSchemeCoolGreen),
-    const MindfulTheme('DeepBlue', lightColorSchemeDeepBlue, darkColorSchemeDeepBlue),
+    const MindfulTheme(
+        'Hot Pink', lightColorSchemeHotPink, darkColorSchemeHotPink),
+    const MindfulTheme('Purple', lightColorSchemePurple, darkColorSchemePurple),
+    const MindfulTheme(
+        'Cool Blue', lightColorSchemeCoolBlue, darkColorSchemeCoolBlue),
+    const MindfulTheme(
+        'Cool Green', lightColorSchemeCoolGreen, darkColorSchemeCoolGreen),
+    const MindfulTheme(
+        'Deep Blue', lightColorSchemeDeepBlue, darkColorSchemeDeepBlue),
     const MindfulTheme('Maroon', lightColorSchemeMaroon, darkColorSchemeMaroon),
   ];
 }

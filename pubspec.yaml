@@ -1,5 +1,5 @@
 name: mindful_flutter_themes
-description: A Very Good Project created by Very Good CLI.
+description: A set of Material 3 themes.
 version: 0.1.0+1
 publish_to: none
 
@@ -16,4 +16,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mocktail: ^0.3.0
-  very_good_analysis: ^4.0.0
+  mindful_analysis: ^1.0.0+2
